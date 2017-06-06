@@ -1,0 +1,14 @@
+package testConcept;
+
+public class DemoClass
+{
+	public static void main(String[] args) 
+	{
+		String s=null;
+		if(s.length()==0)
+		{
+			
+		}
+	}
+
+}

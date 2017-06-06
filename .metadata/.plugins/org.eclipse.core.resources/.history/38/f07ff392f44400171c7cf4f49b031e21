@@ -1,0 +1,21 @@
+package testConcept;
+
+class Base
+{
+	private Base() {
+		// TODO Auto-generated constructor stub
+	}
+}
+public class DemoClass 
+{
+		
+	public static void main(String[] args) 
+	{
+		int c=0111;
+		int a=13;
+		System.out.println(c);
+		System.out.println(a);
+		
+	}
+
+}

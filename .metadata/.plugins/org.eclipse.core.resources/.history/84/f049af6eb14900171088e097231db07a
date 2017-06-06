@@ -1,0 +1,22 @@
+package sortingPack;
+
+import java.util.Scanner;
+
+public class PersonHeightSorting 
+{
+	public static void main(String[] args) 
+	{
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter the size of team");
+		int size=sc.nextInt();
+		String[] playerArray=new String[size];
+		Integer  heightArray[]=new Integer[size];
+		
+		for(int i=0;i<size;i++)
+		{
+			
+		}
+		
+	}
+
+}

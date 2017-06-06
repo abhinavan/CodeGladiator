@@ -1,0 +1,17 @@
+package testConcept;
+
+public class DemoClass
+{
+	static int a;
+	static void call(int a)
+	{
+		this.a=10;
+		
+	}
+	public static void main(String[] args) 
+	{
+		
+		
+	}
+
+}

@@ -1,0 +1,11 @@
+package testConcept;
+
+public class DemoClass
+{
+	public static void main(String[] args) 
+	{
+		int[] x={120,200,0,16};
+		
+	}
+
+}

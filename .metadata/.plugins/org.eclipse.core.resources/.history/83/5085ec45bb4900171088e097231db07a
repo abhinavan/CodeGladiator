@@ -1,0 +1,45 @@
+
+public class StackClass
+{
+	private int maxSize;
+	private int top;
+	private int[] stackArray;
+	
+	public StackClass(int size)
+	{
+		maxSize=size;
+		top=-1;
+		stackArray=new int[maxSize];
+	}
+	public void push(int a)
+	{
+		stackArray[++top]=a;
+	}
+	public int pop()
+	{
+		return stackArray[top--];
+	}
+	public boolean isFull()
+	{
+		if(top==maxSize-1)
+		{
+			return true;
+		}
+		return false;
+	}
+	public boolean isEmpty()
+	{
+		if(top==-1)
+		{
+			return true;
+		}
+		return false;
+	}
+	public static void main(String[] args) 
+	{
+		StackClass stack=new StackClass(10);
+		stack.push(10);
+		stack.push(20);
+	}
+
+}

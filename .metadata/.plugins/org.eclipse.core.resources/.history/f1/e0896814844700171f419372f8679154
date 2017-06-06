@@ -1,0 +1,24 @@
+package sortingPack;
+
+public class ExampleSelectionSort
+{
+	public static int[] sort(int[] arr)
+	{
+		int min_Element=arr[0];
+		for(int i=0;i<arr.length;i++)
+		{
+			if(min_Element>arr[i])
+			{
+				
+			}
+		}
+		return null;
+	}
+	public static void main(String[] args) 
+	{
+		int[] arr={64,25,12,22,11};
+		sort(arr);
+		
+	}
+
+}

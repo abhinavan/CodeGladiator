@@ -1,0 +1,11 @@
+
+public class StackClass
+{
+	private int maxSize;
+	public static void main(String[] args) 
+	{
+		
+		
+	}
+
+}

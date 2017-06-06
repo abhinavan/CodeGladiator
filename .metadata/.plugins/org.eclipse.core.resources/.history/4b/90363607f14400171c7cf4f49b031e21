@@ -1,0 +1,15 @@
+package testConcept;
+
+public class DemoClass 
+{
+			static  int x=10;
+	public static void main(String[] args) 
+	{
+		DemoClass d2=new DemoClass();
+		DemoClass d1=new DemoClass();
+		d1.x=230;
+		
+		
+	}
+
+}

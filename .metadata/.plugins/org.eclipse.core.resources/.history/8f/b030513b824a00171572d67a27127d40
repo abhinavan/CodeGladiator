@@ -1,0 +1,34 @@
+package dataStructurePack;
+
+
+public class DoubleLinkedList<E> 
+{
+	private Node head;
+	private int size;
+	private Node tail;
+	
+	private class Node
+	{
+		E element;
+		Node prev;
+		Node next;
+		
+		public Node(E element,Node prev,Node next) 
+		{
+			this.element=element;
+			this.next=next;
+			this.prev=prev;
+		}
+		
+	}
+	
+	public int size()
+	{
+		return size;
+	}
+	public static void main(String[] args) 
+	{
+		
+	}
+
+}

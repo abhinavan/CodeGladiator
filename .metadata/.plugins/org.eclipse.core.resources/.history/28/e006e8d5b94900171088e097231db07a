@@ -1,0 +1,18 @@
+
+public class StackClass
+{
+	private int maxSize;
+	private int top;
+	private int[] stackArray;
+	
+	public StackClass(int size)
+	{
+		
+	}
+	public static void main(String[] args) 
+	{
+		
+		
+	}
+
+}

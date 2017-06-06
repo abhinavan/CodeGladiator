@@ -1,0 +1,18 @@
+package sortingPack;
+
+public class InsertionSortClass 
+{
+	public static void main(String[] args) 
+	{
+		int[] arr={5,1,6,2,4,3};
+		int i,j,key;
+		
+		for(i=1;i<6;i++)
+		{
+			key=arr[i];
+			j=i-1;
+		}
+		
+	}
+
+}

@@ -1,0 +1,23 @@
+package testConcept;
+
+public class DemoClass
+{
+	int i;
+	int j;
+	public DemoClass(int i,int j) 
+	{
+		
+		this.i=i;
+		this.j=j;
+		
+	}
+	public void call()
+	{
+		
+	}
+	public static void main(String[] args) 
+	{
+		
+	}
+
+}

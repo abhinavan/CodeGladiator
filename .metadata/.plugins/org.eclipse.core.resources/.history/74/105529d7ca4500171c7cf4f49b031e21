@@ -1,0 +1,11 @@
+package dataSturcturePack;
+
+public class ArrayOperationClass 
+{
+	public static void main(String[] args) 
+	{
+		
+		
+	}
+
+}

@@ -1,0 +1,15 @@
+package sortingPack;
+
+import java.util.Scanner;
+
+public class PersonHeightSorting 
+{
+	public static void main(String[] args) 
+	{
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter the size of team");
+		int size=sc.nextInt();
+		
+	}
+
+}

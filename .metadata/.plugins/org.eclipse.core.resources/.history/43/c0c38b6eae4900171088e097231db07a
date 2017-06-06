@@ -1,0 +1,11 @@
+package sortingPack;
+
+public class InsertionSortClass 
+{
+	public static void main(String[] args) 
+	{
+		
+		
+	}
+
+}

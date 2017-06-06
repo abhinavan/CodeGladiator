@@ -1,0 +1,17 @@
+package sortingPack;
+
+public class ExampleSelectionSort
+{
+	public static int[] sort(int[] arr)
+	{
+		int min_Element=arr[0];
+		return null;
+	}
+	public static void main(String[] args) 
+	{
+		int[] arr={64,25,12,22,11};
+		sort(arr);
+		
+	}
+
+}

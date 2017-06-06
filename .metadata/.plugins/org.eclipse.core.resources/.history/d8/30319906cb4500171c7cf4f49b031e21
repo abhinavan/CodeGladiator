@@ -1,0 +1,15 @@
+package dataSturcturePack;
+
+public class ArrayOperationClass 
+{
+	public int[] deleteItem(int[] arr,int key)
+	{
+		return null;
+	}
+	public static void main(String[] args) 
+	{
+		int[] arr=new int[5];
+		
+	}
+
+}

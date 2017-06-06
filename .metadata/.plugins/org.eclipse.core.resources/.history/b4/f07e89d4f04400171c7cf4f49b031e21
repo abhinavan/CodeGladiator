@@ -1,0 +1,13 @@
+package testConcept;
+
+public class DemoClass 
+{
+	public static void main(String[] args) 
+	{
+		int INTEGER=20;
+		char String ='a';
+		double STATIC =2.4;
+		
+	}
+
+}

@@ -1,0 +1,36 @@
+
+public class StackClass
+{
+	private int maxSize;
+	private int top;
+	private int[] stackArray;
+	
+	public StackClass(int size)
+	{
+		maxSize=size;
+		top=-1;
+		stackArray=new int[maxSize];
+	}
+	public void push(int a)
+	{
+		
+	}
+	public int pop()
+	{
+		return 1;
+	}
+	public boolean isFull()
+	{
+		return false;
+	}
+	public boolean isEmpty()
+	{
+		
+	}
+	public static void main(String[] args) 
+	{
+		
+		
+	}
+
+}

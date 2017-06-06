@@ -1,0 +1,72 @@
+package dataStructurePack;
+
+import javax.lang.model.element.Element;
+
+public class DoubleLinkedList<E> 
+{
+	private Node head;
+	private int size;
+	private Node tail;
+	
+	public DoubleLinkedList() 
+	{
+		
+		size=0;
+	}
+	private class Node
+	{
+		E element;
+		Node prev;
+		Node next;
+		
+		public Node(E element,Node prev,Node next) 
+		{
+			this.element=element;
+			this.next=next;
+			this.prev=prev;
+		}
+		
+	}
+	
+	public int size()
+	{
+		return size;
+	}
+	public boolean isEmpty()
+	{
+		if(size==0)
+		{
+			return true;
+		}
+		return false;
+	}
+	
+	public void addFirst(E element)
+	{
+		Node temp=new Node(element,head,null);
+		if(head!=null)
+		{
+			head.prev=temp;
+		}
+		head=temp;
+		if(tail==null)
+		{
+			tail=temp;
+		}
+		size++;
+		System.out.println("Adding element "+element);
+	}
+	
+	public void addLast(Element e )
+	{
+		Node temp=new Node(element,tail,null)
+		{
+			
+		}
+	}
+	public static void main(String[] args) 
+	{
+		
+	}
+
+}

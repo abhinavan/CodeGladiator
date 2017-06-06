@@ -1,0 +1,30 @@
+package dataSturcturePack;
+
+import java.util.Scanner;
+
+public class ArrayBinarySearchClass 
+{
+	public static int findElementByBinarySearch(int[] arr,int toBeSearched)
+	{
+		int pivotElement=arr[arr.length/2];
+		int lowerBound=arr[0];
+		int upperBound=arr[arr.length-1];
+		return -1;
+	}
+	public static void main(String[] args) 
+	{
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter size of array");
+		int size=sc.nextInt();
+		int[] arr=new int[size];
+		for(int i=0;i<arr.length;i++)
+		{
+			System.out.println("Enter "+i+1+" element");
+			arr[i]=sc.nextInt();
+		}
+		System.out.println("Enter element to be searched");
+		int toBeSearched=sc.nextInt();
+		findElementByBinarySearch(arr, toBeSearched);
+	}
+
+}
